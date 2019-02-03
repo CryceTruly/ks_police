@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.asiimwetruly.keepsafepolice.CaseDetailActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/touch_outsidee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:title="Case Details">
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/touch_outsidee"
+        android:orientation="vertical"
+        android:padding="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date reported"
+                android:textColor="#000"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/reported"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="2dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:paddingEnd="6dp"
+                android:paddingRight="6dp"
+                android:text="2RD jAN 2016"
+                android:textSize="17sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reporter Details"
+                android:textColor="#000"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/reporterphone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="2dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:paddingEnd="6dp"
+                android:paddingRight="6dp"
+                android:text="2RD jAN 2016"
+                android:textSize="17sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="District"
+                android:textColor="#000"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/district"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="2dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:paddingEnd="6dp"
+                android:paddingRight="6dp"
+                android:text="Mbarara"
+                android:textSize="17sp" />
+
+        </RelativeLayout>
+        happened
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reportedfrom"
+                android:textColor="#000"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/region"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="2dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:paddingEnd="6dp"
+                android:paddingRight="6dp"
+                android:text="Western rEGION"
+                android:textSize="17sp" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Happened"
+                android:textColor="#000"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/hapen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="2dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:paddingEnd="6dp"
+                android:paddingRight="6dp"
+                android:text="Western rEGION"
+                android:textSize="17sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reported By"
+                android:textColor="#000"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/repby"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="2dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:paddingEnd="6dp"
+                android:paddingRight="6dp"
+                android:text="Western rEGION"
+                android:textSize="17sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Regional Province"
+                android:textColor="#000"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/pro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="2dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:paddingEnd="6dp"
+                android:paddingRight="6dp"
+                android:text="Western rEGION"
+                android:textSize="17sp" />
+
+        </RelativeLayout>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Some description"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Some description"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/mark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/white_rounded_button"
+        android:padding="15dp"
+        android:text="Mark As Closed"
+        android:textColor="@color/colorAccent"
+        android:textSize="21sp" />
+</RelativeLayout>
